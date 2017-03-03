@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nu.te4.entities;
+package nu.te4.beans;
 import java.io.Serializable;
 import java.util.List;
 import javax.ejb.EJB;
@@ -15,7 +15,7 @@ import javax.inject.Named;
  */
 @Named
 @SessionScoped
-public class LoginBean implements Serializable{
+public class AuthenticationBean implements Serializable{
     public void goToLogin(){
     }
 }

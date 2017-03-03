@@ -23,4 +23,9 @@ public class UserBean implements Serializable {
     @EJB
     CustomerFacade customerFacade;
 
+    public String resourceOwner() {
+        String url = "182408392968-asbdmdoat3c6gndk8rjo34ku2u67ib6i.apps.googleusercontent.com";
+        
+        return null;
+    }
 }
